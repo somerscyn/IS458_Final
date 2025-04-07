@@ -1,0 +1,94 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Woodmoore Liquor Store</title>
+    <script>
+        function changeImage() {
+            document.getElementById("bubbleImage").src = "woodmoore2.gif";
+        }
+
+        function resetImage() {
+            document.getElementById("bubbleImage").src = "woodmoore1.gif";
+        }
+    </script>
+    <style>
+        #mainHeader nav ul {
+            list-style: none;
+        }
+        #mainHeader nav ul li {
+            display: inline;
+        }
+    </style>
+</head>
+<body>
+    <header id="mainHeader">
+        <h1>Welcome to Woodmoore Cocktail Lounge and Packaged Goods</h1>
+        <img id="woodmooreImage" src="woodmoore1.gif" alt="Woodmoore Image" onmouseover="changeImage()" onmouseout="resetImage()">
+        <p>Your one-stop shop for beer, wine and liquor. Explore our inventory or learn more about our delivery options.</p>
+    <nav>
+        <ul>
+            <li><a href="about.html">About</a></li>
+            <li><a href="inventory.html">Inventory</a></li>
+            <li><a href="delivery.html">Delivery</a></li>
+        </ul>
+    </nav>
+    </header>
+    <main>
+        <h2>Step Inside</h2>
+        <p>We offer a wide variety of high-end and top shelf liquor you won't find anywhere.</p>
+        <p>Come on in to buy your next Ace of Spades, Old Rip Van Winkle and so much more!</p>
+        <p>Or enter our bar where you can enjoy any of your favorite drinks in a relaxed atmosphere while watching sports!</p>
+        <p>Conveniently located off of Exit 18 on I-695, step inside for an unforgettable experience that'll keep you coming for more!</p>
+        <p>We are located at 7026 Liberty Road, Gwynn Oak MD, 21207</p>
+        <p>We are also open 7 days a week!</p>
+        <table>
+            <tr>
+                <th>Day</th>
+                <th>Opening Time</th>
+                <th>Closing Time</th>
+            </tr>
+            <tr>
+                <td>Monday</td>
+                <td>10:00 AM</td>
+                <td>12:00 AM</td>
+            </tr>
+            <tr>
+                <td>Tuesday</td>
+                <td>10:00 AM</td>
+                <td>12:00 AM</td>
+            </tr>
+            <tr>
+                <td>Wednesday</td>
+                <td>10:00 AM</td>
+                <td>12:00 AM</td>
+            </tr>
+            <tr>
+                <td>Thursday</td>
+                <td>10:00 AM</td>
+                <td>12:00 AM</td>
+            </tr>
+            <tr>
+                <td>Friday</td>
+                <td>10:00 AM</td>
+                <td>01:00 AM</td>
+            </tr>
+            <tr>
+                <td>Saturday</td>
+                <td>10:00 AM</td>
+                <td>01:00 AM</td>
+            </tr>
+            <tr>
+                <td>Sunday</td>
+                <td>09:30 AM</td>
+                <td>10:00 PM</td>
+            </tr>
+        </table>
+    </main>
+    <br>
+    <footer>
+        &copy; 2025 Woodmoore Restaurant, Cocktail Lounge & Package Goods. All rights reserved.
+    </footer>
+</body>
+</html>
