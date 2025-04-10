@@ -21,21 +21,34 @@
             display: inline;
         }
     </style>
+        <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.5/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-SgOJa3DmI69IUzQ2PVdRZhwQ+dy64/BUtbMJw1MZ8t5HZApcHrRKUc4W0kG879m7" crossorigin="anonymous">
 </head>
 <body>
     <header id="mainHeader">
         <h1>Welcome to Woodmoore Cocktail Lounge and Packaged Goods</h1>
         <p>Your one-stop shop for beer, wine and liquor. Explore our inventory or learn more about our delivery options.</p>
-    <nav>
-        <ul>
-            <li><a href="index.html">Home</a></li>
-            <li><a href="about.html">About</a></li>
-            <li><a href="inventory.html">Inventory</a></li>
-            <li><a href="delivery.html">Delivery</a></li>
-            <li><a href="bar.html">Bar</a></li>
-            <li><a href="contact.html">Contact</a></li>
-        </ul>
-    </nav>
+    
+    <nav class="navbar navbar-expand-sm bg-light">
+
+        <div class="container-fluid">
+          <!-- Links -->
+          <ul class="navbar-nav">
+            <li class="nav-item">
+              <a class="nav-link" href="about.html">About</a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link" href="inventory.html">Inventory</a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link" href="bar.html">Bar</a>
+            </li>
+            <li class="nav-item">
+                <a class="nav-link" href="contact.html">Contact</a>
+              </li>
+          </ul>
+        </div>
+      
+      </nav>
     <img id="woodmooreImage" src="woodmoore1.jpeg" alt="Woodmoore Image" onmouseover="changeImage()" onmouseout="resetImage()" width="700" height="500" style="display: block; margin: 0 auto;">
 
     </header>
@@ -94,5 +107,6 @@
     <footer>
         &copy; 2025 Woodmoore Restaurant, Cocktail Lounge & Package Goods. All rights reserved.
     </footer>
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.5/dist/js/bootstrap.bundle.min.js" integrity="sha384-k6d4wzSIapyDyv1kpU366/PK5hCdSbCRGRCMv+eplOQJWyd1fbcAu9OCUj5zNLiq" crossorigin="anonymous"></script>
 </body>
 </html>
