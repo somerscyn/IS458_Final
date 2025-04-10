@@ -6,11 +6,11 @@
     <title>Woodmoore Liquor Store</title>
     <script>
         function changeImage() {
-            document.getElementById("bubbleImage").src = "woodmoore2.gif";
+            document.getElementById("woodmooreImage").src = "woodmoore2.jpeg";
         }
 
         function resetImage() {
-            document.getElementById("bubbleImage").src = "woodmoore1.gif";
+            document.getElementById("woodmooreImage").src = "woodmoore1.jpeg";
         }
     </script>
     <style>
@@ -25,7 +25,6 @@
 <body>
     <header id="mainHeader">
         <h1>Welcome to Woodmoore Cocktail Lounge and Packaged Goods</h1>
-        <img id="woodmooreImage" src="woodmoore1.gif" alt="Woodmoore Image" onmouseover="changeImage()" onmouseout="resetImage()">
         <p>Your one-stop shop for beer, wine and liquor. Explore our inventory or learn more about our delivery options.</p>
     <nav>
         <ul>
@@ -34,6 +33,8 @@
             <li><a href="delivery.html">Delivery</a></li>
         </ul>
     </nav>
+    <img id="woodmooreImage" src="woodmoore1.jpeg" alt="Woodmoore Image" onmouseover="changeImage()" onmouseout="resetImage()" width="700" height="500" style="display: block; margin: 0 auto;">
+
     </header>
     <main>
         <h2>Step Inside</h2>
