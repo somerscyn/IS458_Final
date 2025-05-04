@@ -3,7 +3,7 @@
 <head>
   <meta charset="UTF-8" />
   <meta name="viewport" content="width=device-width, initial-scale=1.0"/>
-  <title>Inventory - Woodmore Bar and Lounge</title>
+  <title>Contact Us - Woodmore Bar and Lounge</title>
   <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.5/dist/css/bootstrap.min.css" rel="stylesheet"/>
   <style>
     header.navbar {
@@ -30,10 +30,6 @@
     .btn-outline, .btn-dark {
       margin: 0 5px;
     }
-    main.inventory h1 {
-      font-size: 1.2rem;
-      margin: 10px 0;
-    }
     footer.footer {
       margin-top: 40px;
       padding: 1rem;
@@ -46,6 +42,13 @@
       margin: 0 10px;
       text-decoration: none;
       color: black;
+    }
+    .contact-container {
+      max-width: 600px;
+      margin: 40px auto;
+      padding: 20px;
+      border-radius: 8px;
+      background-color: #f1f1f1;
     }
   </style>
 </head>
@@ -66,19 +69,25 @@
   </header>
 
   <!-- Main Content -->
-  <main class="inventory text-center">
-    <h2>Inventory:</h2>
-
-    <h1><a href="mini_100ml.html">Minis + 100MLs</a></h1>
-    <h1><a href="all_wines.html">All Wines</a></h1>
-    <h1><a href="all_beers.html">All Beers</a></h1>
-    <h1><a href="gin_and_rum.html">Gin and Rum</a></h1>
-    <h1><a href="cognac_and_brandy.html">Cognac and Brandy</a></h1>
-    <h1><a href="tequila.html">Tequila</a></h1>
-    <h1><a href="moonshine_and_vodka.html">Moonshine and Vodka</a></h1>
-    <h1><a href="bourbon_and_whiskey.html">Bourbon and Whiskey</a></h1>
-    <h1><a href="liqueur_and_mixdrinks.html">Liqueur and Mixed Drinks</a></h1>
-    <h1><a href="tobacco_cigarette.html">Tobacco Products and Cigarettes</a></h1>
+  <main>
+    <div class="contact-container shadow">
+      <h2 class="text-center mb-4">Contact Us</h2>
+      <form>
+        <div class="mb-3">
+          <label for="name" class="form-label">Your Name</label>
+          <input type="text" class="form-control" id="name" placeholder="John Doe">
+        </div>
+        <div class="mb-3">
+          <label for="email" class="form-label">Your Email</label>
+          <input type="email" class="form-control" id="email" placeholder="email@example.com">
+        </div>
+        <div class="mb-3">
+          <label for="message" class="form-label">Your Message</label>
+          <textarea class="form-control" id="message" rows="4" placeholder="Let us know what’s on your mind..."></textarea>
+        </div>
+        <button type="submit" class="btn btn-dark w-100">Send Message</button>
+      </form>
+    </div>
   </main>
 
   <!-- Footer -->

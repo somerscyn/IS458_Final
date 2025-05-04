@@ -1,18 +1,84 @@
 <!DOCTYPE html>
 <html lang="en">
 <head>
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>About the Owners</title>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>About the Owners</title>
+
+  <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.5/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-SgOJa3DmI69IUzQ2PVdRZhwQ+dy64/BUtbMJw1MZ8t5HZApcHrRKUc4W0kG879m7" crossorigin="anonymous">
+  <link rel="stylesheet" href="test.css">
+
+  <style>
+    #mainHeader nav ul {
+      list-style: none;
+    }
+    #mainHeader nav ul li {
+      display: inline;
+    }
+    #mainHeader nav {
+      text-align: center;
+    }
+
+    img#ownersImage {
+      display: block;
+      margin: 1rem auto;
+      border-radius: 10px;
+    }
+
+    main {
+      max-width: 900px;
+      margin: 0 auto;
+      padding: 1rem;
+      text-align: center;
+    }
+
+    footer {
+      text-align: center;
+      padding: 1rem;
+      background-color: #f1f1f1;
+      margin-top: 2rem;
+    }
+  </style>
 </head>
 <body>
-    <h1>About the Owners</h1>
-    <img src="owners.jpeg" alt="Owners" style="width:300px;height:200px;">
-    <p>Woodmoore is currently owned by 2 brothers, Jaswant Singh and Surinder Singh.<br>
-    Both brothers immigrated to the USA viewing it as the land of opporunities. It would turn out to be just that.<br>
-    They first stayed in New York until 2008, working various jobs.<br>
-    They worked in restaurants and delis before making the decision of driving the ever-famous NYC yellow taxis.<br>
-    They moved from New York to Maryland in 2008 and opening their own food store here, York's Pizza Subs and Wings in Baltimore. It was a huge success.<br>
-    After almost a decade, they sold it and bought Woodmoore from extended family and have been running it ever since making multiple new additions.</p>
+  <header id="mainHeader">
+    <h1>Welcome to Woodmoore Cocktail Lounge and Packaged Goods</h1>
+    <p>Your one-stop shop for beer, wine and liquor. Explore our inventory or learn more about our delivery options.</p>
+
+    <nav class="navbar navbar-expand-sm bg-light">
+      <div class="container-fluid justify-content-center">
+        <ul class="navbar-nav">
+          <li class="nav-item">
+            <a class="nav-link active" href="about.html">About</a>
+          </li>
+          <li class="nav-item">
+            <a class="nav-link" href="inventory.html">Inventory</a>
+          </li>
+          <li class="nav-item">
+            <a class="nav-link" href="bar.html">Bar</a>
+          </li>
+          <li class="nav-item">
+            <a class="nav-link" href="contact.html">Contact</a>
+          </li>
+        </ul>
+      </div>
+    </nav>
+  </header>
+
+  <main>
+    <h2>About the Owners</h2>
+    <img id="ownersImage" src="owners.jpeg" alt="Owners" width="300" height="200" />
+    <p>Woodmoore is currently owned by two brothers, Jaswant Singh and Surinder Singh.<br>
+    Both brothers immigrated to the USA, viewing it as the land of opportunity—and it would turn out to be just that.<br>
+    They first lived in New York until 2008, working various jobs in restaurants and delis, eventually driving the iconic NYC yellow taxis.<br>
+    In 2008, they moved to Maryland and opened a successful food store: York's Pizza Subs and Wings in Baltimore.<br>
+    After nearly a decade, they sold the business and purchased Woodmoore from extended family. Since then, they have made multiple new additions and continue to grow the business.</p>
+  </main>
+
+  <footer>
+    &copy; 2025 Woodmoore Restaurant, Cocktail Lounge & Package Goods. All rights reserved.
+  </footer>
+
+  <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.5/dist/js/bootstrap.bundle.min.js" integrity="sha384-k6d4wzSIapyDyv1kpU366/PK5hCdSbCRGRCMv+eplOQJWyd1fbcAu9OCUj5zNLiq" crossorigin="anonymous"></script>
 </body>
 </html>
